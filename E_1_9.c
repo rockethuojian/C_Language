@@ -9,7 +9,7 @@ main()
     while ((c = getchar()) != EOF)
     {
         if (c == ' ')
-            blank_flag = 0;
+            blank_flag = 1;
         else
         {
             if (blank_flag != 0)

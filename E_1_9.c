@@ -16,6 +16,7 @@ main()
             {
                 putchar(' ');
                 putchar(c);
+                blank_flag = 0;
             }
             else
                 putchar(c);

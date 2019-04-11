@@ -8,6 +8,22 @@ main()
 
     while ((c = getchar()) != EOF)
     {
+        if (c != ' ')
+        {
+            putchar(c);
+            blank_flag = 0;
+        }
+        else
+            if (blank_flag == 0)
+            {
+                putchar(' ');
+                blank_flag = 1;
+            }
+
+
+
+
+#if 0
         if (c == ' ')
             blank_flag = 1;
         else
@@ -25,7 +41,6 @@ main()
 
 
 
-#if 0
         if (blank_flag == 0)
             if (c == ' ')
                 blank_flag = 1;

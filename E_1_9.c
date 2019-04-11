@@ -20,10 +20,7 @@ main()
                 blank_flag = 1;
             }
 
-
-
-
-#if 0
+#if 0 /*Written by GF*/
         if (c == ' ')
             blank_flag = 1;
         else
@@ -37,21 +34,6 @@ main()
             else
                 putchar(c);
         }
-
-
-
-
-        if (blank_flag == 0)
-            if (c == ' ')
-                blank_flag = 1;
-            else 
-                putchar(c);
-        else 
-            if (c != ' ')
-            {
-            putchar(' ');
-            blank_flag = 0;
-            }
 #endif
     }
 }

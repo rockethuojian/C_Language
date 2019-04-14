@@ -2,10 +2,7 @@
 
 main()
 {
-    int c, blank_flag;
-
-    blank_flag = 0;
-
+    int c;
     while ((c = getchar()) != EOF)
     {
         if (c == '\t')
